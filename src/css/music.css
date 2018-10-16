@@ -5,8 +5,7 @@ body {
   right: 0;
   bottom: 0;
   display: flex;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
 .head {
   padding-top: 10px;
@@ -14,32 +13,30 @@ body {
   color: #fff;
   background: #2CA2F9;
   text-align: center;
-  font-size: 1.8rem;
-}
+  font-size: 1.8rem; }
 
 .main {
   flex: 1;
   overflow: hidden;
-  overflow-y: scroll;
-}
-.main_list{
+  overflow-y: scroll; }
+
+.main_list {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 10px 0;
-  font-size: 1.4rem;
-  nav{
-    padding-bottom: 5px;
-  }
-  .list_style{
+  font-size: 1.4rem; }
+  .main_list nav {
+    padding-bottom: 5px; }
+  .main_list .list_style {
     font-weight: bold;
-    border-bottom: 2px solid #000000;
-  }
-}
-.foot{
+    border-bottom: 2px solid #000000; }
+
+.main_content {
+  color: #2CA2F9; }
+
+.foot {
   background: palegreen;
   text-align: center;
   padding: 10px 0;
-  font-size: 1.6rem;  
-}
-
+  font-size: 1.6rem; }
